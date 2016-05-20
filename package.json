@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-starter",
+  "version": "1.0.0",
+  "description": "Dependencies for bootstrap-starter theme",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-notify": "^2.2.0",
+    "gulp-bower": "^0.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcuschristiansen/bootstrap-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcuschristiansen/bootstrap-starter/issues"
+  },
+  "homepage": "https://github.com/marcuschristiansen/bootstrap-starter#readme"
+}
