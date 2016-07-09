@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package windmeul
+ * @package wp_starter
  */
 
 get_header(); ?>

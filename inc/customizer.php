@@ -1,8 +1,8 @@
 <?php
 /**
- * windmeul Theme Customizer.
+ * wp_starter Theme Customizer.
  *
- * @package windmeul
+ * @package wp_starter
  */
 
 /**
@@ -10,17 +10,17 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function windmeul_customize_register( $wp_customize ) {
+function wp_starter_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 }
-add_action( 'customize_register', 'windmeul_customize_register' );
+add_action( 'customize_register', 'wp_starter_customize_register' );
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function windmeul_customize_preview_js() {
-	wp_enqueue_script( 'windmeul_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+function wp_starter_customize_preview_js() {
+	wp_enqueue_script( 'wp_starter_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
-add_action( 'customize_preview_init', 'windmeul_customize_preview_js' );
+add_action( 'customize_preview_init', 'wp_starter_customize_preview_js' );
