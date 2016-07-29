@@ -24,6 +24,8 @@ gulp.task('css', function() { 
              style: 'compressed',
              loadPath: [
                  './assets',
+				config.bowerDir + '/bourbon/app/assets/stylesheets',
+				config.bowerDir + '/neat/app/assets/stylesheets',
 				config.bowerDir + '/normalize-scss/sass',
                  config.bowerDir + '/bootstrap-sass/assets/stylesheets',
                  config.bowerDir + '/font-awesome/scss',
