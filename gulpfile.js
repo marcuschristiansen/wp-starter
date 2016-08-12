@@ -21,7 +21,7 @@ gulp.task('icons', function() { 
 
 gulp.task('css', function() { 
     return sass(config.sassPath + '/style.scss', {
-             style: 'compressed',
+             //style: 'compressed',
              loadPath: [
                  './assets',
 				config.bowerDir + '/bourbon/app/assets/stylesheets',

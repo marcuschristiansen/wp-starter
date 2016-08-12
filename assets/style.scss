@@ -1,6 +1,23 @@
+/*!
+Theme Name: WP Starter
+Theme URI: http://xiansen.co.za
+Author: Marcus Christiansen
+Author URI: http://xiansen.co.za
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
 $font-family-base: 'Raleway', sans-serif; // example variable to override bootstrap
 
+// Font awesome path
+$fa-font-path:	"fonts";
+// Bootstrap Font Path
+$icon-font-path: "assets/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // Import dependencies
 @import "bourbon";
@@ -9,5 +26,6 @@ $font-family-base: 'Raleway', sans-serif; // example variable to override bootst
 @import "bootstrap";
 @import "font-awesome";
 
-// Font awesome path
-$fa-font-path:        "fonts";
+html, body {
+	height: 100%;
+}
