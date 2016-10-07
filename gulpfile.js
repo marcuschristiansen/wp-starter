@@ -27,7 +27,8 @@ gulp.task('css', function() { 
 				config.bowerDir + '/bourbon/app/assets/stylesheets',
 				config.bowerDir + '/neat/app/assets/stylesheets',
 				config.bowerDir + '/normalize-scss/sass',
-                 config.bowerDir + '/bootstrap-sass/assets/stylesheets',
+                 //config.bowerDir + '/bootstrap-sass/assets/stylesheets',
+                config.bowerDir + '/bootstrap/scss',
                  config.bowerDir + '/font-awesome/scss',
              ]
          }) 

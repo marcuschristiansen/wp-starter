@@ -17,7 +17,7 @@
   "dependencies": {
     "jquery": "~2.2.3",
     "normalize-scss": "git@github.com:JohnAlbin/normalize-scss.git#^4.1.0",
-    "bootstrap-sass": "^3.3.6",
+    "bootstrap": "4.0",
     "font-awesome": "git@github.com:FortAwesome/Font-Awesome.git",
     "bourbon": "^4.2.7",
     "neat": "^1.8.0"

@@ -16,8 +16,10 @@ $font-family-base: 'Raleway', sans-serif; // example variable to override bootst
 
 // Font awesome path
 $fa-font-path:	"fonts";
+
 // Bootstrap Font Path
 $icon-font-path: "assets/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$enable-flex: true;
 
 // Import dependencies
 @import "bourbon";
